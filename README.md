@@ -1,7 +1,5 @@
 # Openresty
 
-Configures and installs openresty
-
 ## Requirements
 
 - Ansible 1.2+
@@ -10,7 +8,7 @@ Configures and installs openresty
 ## Installation
 
 ```shell
-$ ansible-galaxy install seregatte.openresty
+$ ansible-galaxy install -r requirements.yml
 ```
 
 ## Variables
@@ -43,11 +41,6 @@ $ ansible-galaxy install seregatte.openresty
 | with_addition 			| true									| Compile with addition_module  					|          
 | with_gunzip 				| true									| Compile with gunzip module						|          
 | with_postgres 			| true									| Compile with PostgreSQL support					|          
-
-Dependencies
-------------
-
-None
 
 
 Example Playbook
