@@ -1,0 +1,10 @@
+tests/.vagrant
+
+.DS_Store
+.env
+*.log
+*.iml
+*.retry
+*.debug
+
+.idea/
